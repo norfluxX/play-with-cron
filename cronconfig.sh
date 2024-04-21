@@ -1,5 +1,5 @@
 #!/bin/bash
-#Created by Bhikesh Khute - Platform Engineer
+# Created by Bhikesh Khute - Platform Engineer
 # Function to display the menu
 display_menu() {
     echo "------------------------------------------"
@@ -18,7 +18,7 @@ option1() {
         read jobname
         cat << EOF > $jobname.sh
 #!/bin/bash
-APP_HOME=/var/www/bcx.4pay.ca
+APP_HOME=/var/www/bcx.netlog.ca
 CAKE_VERSION="cakephp-2.10.18"
 export PATH=\${APP_HOME}/\${CAKE_VERSION}/app/Console:\$PATH
 
