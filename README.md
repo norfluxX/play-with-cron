@@ -3,7 +3,7 @@
 To run: 
 
 ```
-git clone https://github.com/norfluxx/play-with-cron.git
+git clone https://github.com/norfluxX/play-with-cron.git
 ```
 ```
 sh cronconfig.sh 
